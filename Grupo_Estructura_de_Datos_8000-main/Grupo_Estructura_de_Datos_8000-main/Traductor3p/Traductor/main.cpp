@@ -3,15 +3,14 @@
 
 /*UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE
  * Nombre del archivo: Traductor.cpp
- * Fecha de creación: DD/MM/AAAA
- * Autores:  Mateo Llumigusin, Kevin Coloma, Jefferson Guamaní, Mateo Barriga
- * Correo electrónico: correo@espe.edu.ec
- * Descripción: TRADUCTOR DE ESPAÑOL A INGLES Y VICEVERSA
+ * Fecha de creaciÃ³n:19/02/2023
+ * Autores:  Mateo Llumigusin, Kevin Coloma, Jefferson GuamanÃ­, Mateo Barriga
+ * Correo electrÃ³nico: correo@espe.edu.ec
+ * DescripciÃ³n: TRADUCTOR DE ESPAÃ‘OL A INGLES Y VICEVERSA
  *              con cuentas de usuario y Administrador.
  */
 
 int main()
 {
-    std::setlocale(LC_ALL, ".UTF-8");
-    return Application::run(ApplicationState::RUN);
+     return Application::run(ApplicationState::RUN);
 }
